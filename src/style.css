@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+.imm {
+  transition: filter 0.1s ease;
+}
+
+.imm:hover {
+  filter: invert(1);
+}
+.learning-sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.learning-sections .posts {
+  flex: 1;
+}
+
+        body {
+          background-color: #11111B;
+          color: white;
+          font-family: 'Cabin', sans-serif;
+          font-size: 16px;
+          line-height: 1.6;
+          margin: 0;
+          padding: 20px;
+        }
+        .container {
+          max-width: 800px;
+          margin: 0 auto;
+        }
+        header {
+          margin-bottom: 20px;
+        }
+        nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 0;
+          border-bottom: 1px solid #F8C8DC;
+        }
+        nav a {
+          color: #F8C8DC;
+          text-decoration: none;
+          font-family: 'Cabin', sans-serif;
+          font-weight: 800;
+
+          font-size: 18px;
+        }
+        .nav-links a {
+          margin-left: 20px;
+        }
+        .hero {
+          margin-bottom: 20px;
+        }
+        h1, h2 {
+          color: #F8C8DC;
+          font-family: 'Cabin', sans-serif;
+          font-weight: 800;
+
+
+        }
+h2{
+  margin-bottom:0px;
+}
+
+main{
+  margin-bottom:20px;
+}
+        .intro, .posts, .misc {
+          margin-bottom: 30px;
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin-top:0px;
+        }
+        li {
+          margin-bottom: 10px;
+          color:white !important;
+        }
+        a {
+          color: white;
+        }
+        a:hover{
+          color: gray;
+        }
+
+        footer {
+          border-top: 1px solid #F8C8DC;
+          padding-top: 20px;
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+          font-family: 'Cabin', sans-serif;
+          font-weight: 800;
+
+        }
+
+        .icon-link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          transition: background-color 0.3s ease;
+        }
+
+        .icon-link:hover {
+          background-color: #F8C8DC;
+        }
+
+        .icon-link:hover svg {
+          fill: #000000;
+        }
+
+        .no_underline{
+          text-decoration: none;
+        }
+
+.posts ul li {
+  margin-bottom: 20px;
+}
+
+.posts ul li a {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.posts ul li a:hover {
+  text-decoration: underline;
+}
+
