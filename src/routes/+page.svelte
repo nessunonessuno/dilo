@@ -15,7 +15,7 @@
   </div>
     <h1>suuuper neet looser that likes computers</h1>
     <section class="intro">
-      &gt; Yo im dilo, suuper neet, im currently unemployed trying to make it. I really likes computers and rust, and other things. Basically my entire existence is based on computers :3 
+      &gt; Yo im dilo, suuper neet, im currently freelancing trying to make it. I really likes computers and rust, and other things. Basically my entire existence is based on computers :3 
       <br>&gt; One day i will be god with ai (i hope).
     </section>
     <div class="learning-sections">
@@ -40,7 +40,6 @@
       <h2>various</h2>
       <ul>
         <li><a href="{base}/useful">useful</a></li>
-        <li><a href="{base}/meme">memes</a></li>
         <li><a href="{base}/like">things i like</a></li>
         <li><a href="{base}/dislike">things i dislike</a></li>
       </ul>

@@ -1,31 +1,30 @@
 <!-- src/routes/useful/+page.svelte -->
 <script>
-  import { base } from '$app/paths';
+  const usefulLinks = [
+    { name: "Rust Book", url: "https://doc.rust-lang.org/book/" },
+    { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu" },
+    { name: "Have I Been Pwned", url: "https://haveibeenpwned.com" },
+    {name:"Consumet API" , url:"https://github.com/consumet/api.consumet.org" },
+    {name:"Anna's Archive" , url:"annas-archive.org" },
+    {name:"Library Genesis" , url:"https://libgen.is/" },
+    {name:"Cool image processing" , url: "https://www.tooooools.app/"},
+    {name:"Anime raccomandations AI" , url:"https://waifudex.com/" },
+    {name:"Meme Grep" , url:"https://memegrep.com/" },
+    {name:"Pepe" , url:"https://rarepepes.net/search" },
+    {name:"Anime Streaming" , url:"https://aniwatchtv.to/" },
+    {name:"CS Books" , url:"https://nick-black.com/dankwiki/index.php/Book_list_for_streetfighting_computer_scientists" },
+    {name:"Reverse engineering ctf style thing" , url:"https://microcorruption.com/" },
+    {name:"Reverse engineering ctg style thing 2" , url:"https://crackmes.one/" },
 
-  const categories = [
-    {
-      name: "programming",
-      items: [
-        { name: "GitHub", url: "https://github.com" },
-        { name: "Stack Overflow", url: "https://stackoverflow.com" },
-        { name: "Rust Documentation", url: "https://doc.rust-lang.org" }
-      ]
-    },
-    {
-      name: "learning",
-      items: [
-        { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu" }
-      ]
-    },
+    {name:"Reverse engineering ctg style thing 2" , url:"https://crackmes.one/" },
+    {name:"Reverse engineering ctg style thing 2" , url:"https://crackmes.one/" },
+    { name:"From tensor to Diffusion", urk:"https://github.com/jla524/fromthetensor" },
 
 
-    {
-      name: "security",
-      items: [
-        { name: "Have I Been Pwned", url: "https://haveibeenpwned.com" },
-      ]
-    }
-  ];
+
+
+
+];
 </script>
 
 <svelte:head>
@@ -34,19 +33,14 @@
 </svelte:head>
 
   <main>
-    <h1>useful links</h1>
-    {#each categories as category}
-      <section class="category">
-        <h2>{category.name}</h2>
-        <ul>
-          {#each category.items as item}
-            <li>
-              <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
-            </li>
-          {/each}
-        </ul>
-      </section>
-    {/each}
+    <h1>useful links or to remember</h1>
+    <ul>
+      {#each usefulLinks as link}
+        <li>
+          <a href={link.url} target="_blank" rel="noopener noreferrer">{link.name}</a>
+        </li>
+      {/each}
+    </ul>
   </main>
 
 

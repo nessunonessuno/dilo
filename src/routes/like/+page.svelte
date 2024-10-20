@@ -8,8 +8,11 @@
         "llms",
         "open source things",
         "piracy",
-        "javascript"
-      ]
+        "javascript",
+        "nvim",
+        "arch",
+        "thinkpad"
+        ]
     },
     {
       name: "music",
@@ -36,8 +39,10 @@
       name: "games",
       items: [
         "Minecraft",
-        "The Legend of Zelda: Tears of the Kingdom",
-        "Elden ring"
+        "The Legend of Zelda",
+        "Elden ring",
+        "Pokemons",
+        "Chess"
       ]
     },
     {
@@ -47,9 +52,17 @@
         "Serial Experiments Lain",
         "Cyberpunk: Edgerunners",
         "Steins;Gate",
+        "Vinland saga",
+        "Girls' Last Tour",
         "No Game No Life",
         "Berserk",
-        "Made in Abyss"
+        "Made in Abyss",
+        "Attack on titan",
+        "Welcome to the NHK",
+        "Paprika",
+        "Kakegurui",
+        "Bocchi the Rock!",
+        "Darling in the Franxx"
       ]
     },
     {
@@ -61,7 +74,7 @@
     "free food",
     "green tea",
     "cats (super cool)",
-    "cigarettes"
+    "nicotine"
     ]
     }
   ];
